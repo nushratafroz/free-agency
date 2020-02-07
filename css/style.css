@@ -1,0 +1,345 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Global css*/
+
+h1{
+	color: #ffffff;
+	font-size: 50px;
+
+}
+h2{
+	color: #ffffff;
+	font-size: 30px;
+	padding-bottom: 20px;
+
+}
+h3{
+	font-size: 36px;
+	color: #424242;
+
+}
+h4{
+	font-size: 15px;
+	color: #424242;
+	line-height: 30px;
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+	    font-size: 13.5px;
+       color: #424242;
+
+}
+
+/* address section starts*/
+.address{
+	background: #F0F2F4;
+    line-height: 15px;
+
+}
+.details{
+	    text-align: right;
+         margin: 0 auto;
+
+}
+.mobile{
+	border-right: 1px solid #E2E2E2;
+
+}
+
+.mobile label{
+	font-size: 15px;
+
+}
+.fa.fa-mobile{
+	font-size: 15px;
+    color: #424242;
+    padding: 0px 2px;
+
+}
+.envelope{
+	font-size: 13px;
+
+}
+
+.envelope label{
+	font-size: 14px;
+
+}
+.fa.fa-envelope{
+		font-size: 15px;
+        color: #424242;
+        padding: 0px 2px;
+
+}
+
+.fa.fa-facebook-official{
+	color: #1287bf;
+	font-size: 15px;
+
+
+}
+
+/* address section ends*/
+
+/* nav section starts*/
+.nav-head{
+	background: #ffffff!important;
+	margin: 15px;
+}
+.nav-link{
+	color: #161616;
+	font-size: 15px;
+
+
+}
+.nav-link:hover{
+	color: #dd2a24!important;
+}
+.nav-link::before{
+	content: "•     "
+}
+
+
+.nav-item{
+	padding: 0px 7px;
+
+}
+.btn-one{
+    color: #ffffff;
+    background: #de2b24;
+    font-size: 13px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 70px;
+}
+
+/* nav section ends*/
+
+/* hero section starts*/
+.hero{
+	background: url(../img/banner.jpg)no-repeat center top;
+	background-size: cover;
+	padding-bottom: 120px;
+
+}
+.hero-title{
+	text-align: center;
+	padding: 170px 0px 120px 0px;
+
+}
+.btn-two{
+	    background: #f8cd53;
+        color: #ffffff;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+
+}
+/* hero section ends*/
+
+/* About section starts*/
+.about{
+	    padding: 100px 180px;
+
+}
+.about-title{
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 45px;
+
+}
+.about-title span{
+	    border-bottom: #161616 5px solid;
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+	
+}
+.about-img{
+	text-align: center;
+
+}
+.about-img img{
+	padding-bottom: 15px;
+	
+}
+/* About section ends*/
+/* approach section starts*/
+.approach{
+	background: #f3f3f3;
+	padding-bottom: 45px;
+
+}
+.app{
+	margin-bottom: 30px;
+}
+.approach-content{
+	background: #ffffff;
+    padding: 0px;
+    margin: 0px;
+
+}
+.app-img{
+	    position: relative;
+        padding: 0px;
+
+}
+.step{
+	background: #de2b24;
+    position: absolute;
+    width: 36%;
+    text-align: center;
+    border: 2px solid #fff;
+    top: 22px;
+    right: -33px;
+
+}
+.stepp{
+	background: #de2b24;
+    position: absolute;
+    width: 36%;
+    text-align: center;
+    border: 2px solid #fff;
+    top: 22px;
+    left: -33px;
+
+}
+.app-content{
+	padding: 28px 77px 0px;
+
+}
+/* approach section ends*/
+/* work section starts*/
+
+.work{
+	background:#de2b24;
+	padding: 0px 188px 125px 188px; 
+
+}
+.work-title{
+
+}
+.work-title span{
+	border-bottom: #ffffff 5px solid;
+
+}
+.working{
+
+}
+.work-con{
+	padding: 0px;
+
+}
+
+/* work section ends*/
+
+/* analysis section starts*/
+
+.analysis{
+	background: #1287bf;
+	padding: 100px 358px;
+}
+.fa.fa-chevron-circle-down{
+	    color: #ffffff;
+        font-size: 40px;
+        padding-bottom: 25px;
+
+}
+.icon{
+	text-align: center;
+
+}
+
+.triangle-up{
+
+}
+.contact-form{
+	    background: #ffffff;
+        position: relative;
+        padding: 50px;
+        text-align: center
+
+}
+form{
+
+}
+.form-cntrl{
+	width: 80%;
+    margin: 4px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 9px 8px;
+
+}
+.form-cntrl::hover{
+	border: 1px solid #188ac1;
+}
+.sbmt{
+	font-size: 12px;
+    padding: 7px 23px;
+    color: #fff;
+    background: #de2b24;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* analysis section ends*/
+
+.getintouch{
+	background: #2a2a2a;
+	padding: 100px;
+
+}
+.get-title{
+	text-align: center;
+
+}
+.list-icons{
+
+}
+.list-icons i {
+	    background: transparent;
+    padding: 7px;
+    margin: 2px;
+    font-size: 30px;
+    border: 2px solid #3C3C3C;
+    width: 54px;
+    color: #ffffff;
+
+}
+.form-control{
+	margin: 30px auto;
+    display: block;
+    width: 65%;
+    padding: 15px 10px;
+    background: #515151;
+    color: #c6c6c6;;
+    border: none;
+
+}
+.btn{
+	margin: 0px auto;
+    display: block;
+    width: 14%;
+    padding: 15px 10px;
+    background: #transparent;
+    color: #c6c6c6;
+    border: 2px solid #3C3C3C;
+
+}
+
+
+
+
